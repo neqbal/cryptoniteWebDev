@@ -97,3 +97,10 @@ This is a typical boilerplate for an HTML document \
   </body>
 </html>
 ```
+
+
+***
+
+&nbsp;
+
+[Odin Recipes](https://github.com/neqbal/cryptoniteWebDev/blob/main/HTMLFoundations/index.html)
