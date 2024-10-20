@@ -1,8 +1,6 @@
-[Odin Recipes](https://github.com/neqbal/cryptoniteWebDev/blob/main/HTMLFoundations/index.html)
+# [Odin Recipes](https://github.com/neqbal/cryptoniteWebDev/blob/main/HTMLFoundations/index.html)
 
-&nbsp;
 
-***
 # HTML 
 Hyper Text Markup Language
 It is the raw data that a webpage is built out of. It is the most basic building block of a webpage. It defines the meaning and structure of a webpage. 
