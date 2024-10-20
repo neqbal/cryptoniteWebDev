@@ -103,5 +103,66 @@ This is a typical boilerplate for an HTML document \
 </html>
 ```
 
+## Working with texts
 
+#### Paragraph 
+```html
+<body>
+    Lorem ipsum dolor sit amet
+
+    Ut enim ad minim veniam 
+</body>
+```
+If try to write a paragraph like above the browser will compress the empty line and the result will be just one single line of text.
+
+So for it to appear as paragraph seperated by a line we need to use the `<p>` tag and enclose every paragraph individually within it.
+
+```html
+<body>
+    <p>lorem ipsum dolor sit amet</p>
+    <p>ut enim ad minim veniam</p>
+</body>
+```
+&nbsp;
+
+#### Headings
+we can use the headings tag `<h1>` to write headings. 
+The heading tags are displayed larger and bolder compared to other tags and number specifies the importance. Where most important being `<h1>` and least important being `<h6>`
+
+```html
+<body>
+    <h1>This is a heading 1</h1>
+    <h2>This is a heading 2</h2>
+    <h3>This is a heading 3</h3>
+    <h4>This is a heading 4</h4>
+    <h5>This is a heading 5</h5>
+    <h6>This is a heading 6</h6>
+</body>
+```
+&nbsp;
+
+## Working with lists
+
+#### Unordered Lists
+In unordered lists the order of elements does not matter and the list items are prefixed with a bold dot.
+
+```html
+<ul>
+    <li> item 1 </li>
+    <li> item 2 </li>
+</ul>
+```
+
+#### Ordered Lists
+In ordered lists the order of elements does matter and the list items are prefixed with numbers in their serial order.
+
+```html
+<ol>
+    <li> item 1 </li>
+    <li> item 2 </li>
+</ol>
+```
+&nbsp;
+
+## Links and images
 ***
