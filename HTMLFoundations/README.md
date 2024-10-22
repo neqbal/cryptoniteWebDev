@@ -1,5 +1,5 @@
-# [Odin Recipes](https://github.com/neqbal/cryptoniteWebDev/blob/main/HTMLFoundations/index.html)
-
+# [Odin Recipes Source Code](https://github.com/neqbal/cryptoniteWebDev/blob/main/HTMLFoundations/index.html)
+# [Live Preview](https://neqbal.github.io/odinRecipes/)
 
 # HTML 
 Hyper Text Markup Language
