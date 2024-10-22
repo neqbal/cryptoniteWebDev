@@ -163,4 +163,24 @@ In ordered lists the order of elements does matter and the list items are prefix
 &nbsp;
 
 ## Links and images
+
+#### anchor element
+
+```html
+<a href="https://www.theodinproject.com/about">About The Odin Project</a>
+```
+
+The anchor element is `<a>` and we can use `href` attribute to embed links in text.
+By clicking that text, the webpage will open on the same tab. 
+
+To open the link in a seperate tab we can add `target="_blank"` attribute to anchor element.
+
+#### Image
+
+```html
+<img src="path to image or link of that image">
+```
+
+An image can be included into the html page by using the `<img>` tag and providing the path to that image to `src` attribute.
+We can also add `alt` attribute which can display a text if image is not displayed.
 ***
