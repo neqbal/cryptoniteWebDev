@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f14;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b27;
+    height: 60px;
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    border: 2px solid #4c4c7a;
+  }
+  
+  #Header-Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    color: #9999b8;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  #nav-elements {
+    padding-right: 150px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  
+  a {
+    color: #6666a3;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  a:hover {
+    color: #9999b8;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1b1b27;
+    border-radius: 20px;
+    border: 2px solid #4c4c7a;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .heading {
+    color: #9999b8;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .desc {
+    color: #6666a3;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .pic {
+    width: 200px;
+    height: 200px;
+    background-color: #6666a3;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 1, 255, 0.5);
+  }
+  
+  .randomInfo {
+    color: #9999b8;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .card1, .card2, .card3, .card4 {
+    width: 250px;
+    height: 250px;
+    background-color: #4c4c7a;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.733);
+  }
+  
+  .quote {
+    height: 150px;
+    background-color: #4c4c7a;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+  }
+  
+  footer {
+    background-color: #1b1b27;
+    color: #6666a3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 2px solid #4c4c7a;
+  }
+  
+  .footer-content {
+    font-size: 0.9rem;
+  }
+
+  span {
+    font-style: italic;
+    font-weight: 900;
+    color: rgba(255, 0, 255, 0.5);
+  }
