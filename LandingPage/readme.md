@@ -2,6 +2,8 @@
 
 ### Flex-Box
 
+***
+
 The flexible box layout module (usually referred to as flexbox) is a one-dimensional layout model for distributing space between items and includes numerous alignment capabilities.
 
 When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it.
@@ -18,8 +20,11 @@ The cross axis runs perpendicular to the main axis. Therefore, if your flex-dire
 
 An item with display: flex is called flex container and items inside it are flex items
 
+&nbsp;
 
 ### Flex grow, shrink and basis 
+
+***
 
 This property defines how each flex item will grow with respect to others
 
@@ -32,8 +37,11 @@ If one of the items has flex: 2 then that item will grow and shrink 2 times more
 Flex basis sets the initial size. So any growing and shrinking will start from basis size.\
 Auto in basis tells them to check for any width and height declaration
 
+&nbsp;
 
 ### Aligning items 
+
+***
 
 justify-content - aligns items horizontally \
 for example justify-content: center will bring the items in center. Similarly there are many more options in justify-content such as end, start. 
@@ -41,9 +49,11 @@ for example justify-content: center will bring the items in center. Similarly th
 align-items - aligns items vertically. \
 It also has the same options as justify-content
 
+&nbsp;
 
 ### Padding, borderm margin
 
+***
 Padding - increases the space between border of the box and content of the box
 
 Border - adds space between margin and padding.
