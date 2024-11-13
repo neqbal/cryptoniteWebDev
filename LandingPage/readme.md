@@ -43,11 +43,15 @@ Auto in basis tells them to check for any width and height declaration
 
 ***
 
-justify-content - aligns items horizontally \
+1. justify-content - aligns items horizontally \
 for example justify-content: center will bring the items in center. Similarly there are many more options in justify-content such as end, start. 
 
-align-items - aligns items vertically. \
+2. align-items - aligns items vertically. \
 It also has the same options as justify-content
+
+3. Gap - Introduces gap in between flex items 
+
+Note- In order to use these items an element must be a flex container.
 
 &nbsp;
 
